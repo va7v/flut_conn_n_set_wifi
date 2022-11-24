@@ -122,7 +122,7 @@ class _FlutterWifiIoTState extends State<FlutterWifiIoT> {
             icon: const Icon(Icons.refresh),
             label: const Text('ping camera '),
             onPressed: () {
-              // pingCam('172.24.18.190');//R2D2   //172.24.18.175
+              // router 18.190  cam .175
               pingCam('192.168.10.1');
             },
           ),
@@ -163,7 +163,7 @@ class _FlutterWifiIoTState extends State<FlutterWifiIoT> {
     );
   }
 
-  // Connect wifi by name(SSID)
+  // Connect wifi by SSI name
   static Future<bool> connectWifiByName(
       String wifiName, String password) async {
     bool _isConnected = false;
