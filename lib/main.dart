@@ -128,8 +128,8 @@ class _FlutterWifiIoTState extends State<FlutterWifiIoT> {
           ),
           ElevatedButton.icon(
             icon: const Icon(Icons.access_time),
-            label: const Text('set net @camera to R2D2'),
-            onPressed: () => setNetwork('R2D2', 'Rd6k3D0rRt'),
+            label: const Text('set net @camera to NAME'),
+            onPressed: () => setNetwork('NAME', 'Pwd123456'),
           ),
         ]);
       } else {
